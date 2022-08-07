@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     name: Gradle test
-    runs-on: dasom-server
+    runs-on: [ self-hosted, linux, X86 ]
 
     env:
       DB_URL: ${{ secrets.DB_URL }}
