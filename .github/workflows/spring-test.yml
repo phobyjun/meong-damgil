@@ -8,7 +8,7 @@ on:
 jobs:
   test:
     name: Gradle test
-    runs-on: [ self-hosted, linux, X86 ]
+    runs-on: [ self-hosted, linux, X64 ]
 
     env:
       DB_URL: ${{ secrets.DB_URL }}
